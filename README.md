@@ -36,7 +36,7 @@ go get -u github.com/apache/beam/sdks/v2/go/pkg/beam
 ## Run WordCount Example
 
 ```PowerShell
-go install github.com/apache/beam/sdks/go/examples/wordcount@latest
+go install github.com/apache/beam/sdks/v2/go/examples/wordcount@latest
 ```
 
 Review the local dependencies at C:\Users\<username>\AppData\Local\go-build.
