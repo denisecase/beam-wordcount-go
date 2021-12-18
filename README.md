@@ -37,7 +37,10 @@ go get -u github.com/apache/beam/sdks/v2/go/pkg/beam
 
 ```PowerShell
 go install github.com/apache/beam/sdks/v2/go/examples/wordcount@latest
+wordcount --input <PATH_TO_INPUT_FILE> --output counts
 ```
+
+Example: 
 
 Review the local dependencies at C:\Users\<username>\AppData\Local\go-build.
 
