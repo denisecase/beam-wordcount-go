@@ -40,7 +40,12 @@ go install github.com/apache/beam/sdks/v2/go/examples/wordcount@latest
 wordcount --input <PATH_TO_INPUT_FILE> --output counts
 ```
 
-Example: 
+Examples: 
+
+```PowerShell
+wordcount --input 'C:\Users\dcase\Documents\44-517\beam-wordcount-go\data.txt' --output counts
+wordcount --input data.txt --output counts.yaml
+```
 
 Review the local dependencies at C:\Users\<username>\AppData\Local\go-build.
 
